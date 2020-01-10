@@ -3,3 +3,6 @@ This repository include all the projects that I have implemented for students fr
 
 If you need the schematic diagram and the textbook feel free to send me an email at gmuhawenayo@gmail.com
 
+
+Project list details
+
