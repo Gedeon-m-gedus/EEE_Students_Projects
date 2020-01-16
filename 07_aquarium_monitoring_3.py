@@ -3,10 +3,6 @@ import json
 import time
 import matplotlib.pyplot as plt
 
-
-
-
-
 def plot_my_data():
     x=0
     xx=0
@@ -20,8 +16,6 @@ def plot_my_data():
         x = x + 1
         ch = thingspeak.Channel(id=817351, api_key='H8QFEOWP3N5FFHC6',fmt='json')
         data_from_thingspeak=ch.get({'results': 2})
-
-
         data_list_from_thingspeak=data_from_thingspeak.split(",")
 
         #print(data_from_thingspeak)
