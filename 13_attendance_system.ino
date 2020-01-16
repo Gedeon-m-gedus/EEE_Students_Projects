@@ -78,15 +78,6 @@ Serial.println("______________memory location ");
 Serial.println(g);
 Serial.println("______________memory location ");
 
-//while (g<4){
-//  registerStudent(g);
-//  EEPROM.write(addr, g);
-//EEPROM.commit();
-//  g=g+1;
-//}
-  
-//finger.emptyDatabase();
-//getFingerprintID();
   finger.getTemplateCount();
   Serial.print("Sensor contains "); Serial.print(finger.templateCount); Serial.println(" templates");
   Serial.println("Waiting for valid finger...");
@@ -415,9 +406,6 @@ count=count+1;
  
 }
     }
-
-
-
 
     void Save(){
 if(digitalRead(b)==HIGH)                //DETECTION OF BUTTON INTERFACE TO HIGH
