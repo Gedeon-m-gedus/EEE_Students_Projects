@@ -224,21 +224,6 @@ lcd.setCursor(0,0);
   return finger.fingerID; 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 void registerStudent(uint16_t code){
   uint8_t imageCaptionStatus;
   uint8_t imageToTemplateStatus;
