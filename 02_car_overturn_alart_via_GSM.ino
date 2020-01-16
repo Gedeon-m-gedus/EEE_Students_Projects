@@ -8,7 +8,7 @@ float Long=30.064366,Lat=-1.958082,d1,d2,d3; // this are variables to store cord
 String online_link, hospital,acc_type;
 String Car_ID="RAD 103L X";
 
-//________ HOSPITAL location________________
+//________ HOSPITALS location________________
 float hospital_1_lat=-1.9559;
 float hospital_1_long=30.0605;
 
@@ -94,14 +94,6 @@ Serial.begin(115200);                   //starting the serial communication
 WiFi.begin(ssid, pass);
 delay(100);
  
-//while (WiFi.status() != WL_CONNECTED) 
-//     {
-//            
-//           
-//            Serial.println("No connectivity!");
-//            delay(100);
-//          
-//     }
       Serial.println("");
       Serial.println("***GSM network connected***");
 
@@ -281,10 +273,6 @@ Serial.println("running...");
   // REPLACE WITH YOUR OWN SMS MESSAGE CONTENT
   
   Serial.println("There is car accident, please help!"); 
-  //Serial.print("Latitude: ");
-  //Serial.println(Lat, 6);
-  //Serial.print("Longitude: ");
-  //Serial.print(Long,6);
   Serial.println("Here is the accident location: ");
   Serial.println(online_link);
   delay(100);
