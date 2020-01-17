@@ -37,24 +37,7 @@ void setup() {
   lcd.clear();
   lcd.begin(16, 2);
   lcd.print(" AUTO COOCKER ");
-
-
-
-//      EEPROMWrite16bits(h1on_address,0);
-//    EEPROMWrite16bits(h2on_address,0);
-//    EEPROMWrite16bits(m1on_address,0);
-//    EEPROMWrite16bits(m2on_address,0);
-//
-//    EEPROMWrite16bits(h1off_address,0);
-//    EEPROMWrite16bits(h2off_address,0);
-//    EEPROMWrite16bits(m1off_address,0);
-//    EEPROMWrite16bits(m2off_address,0);
-
-
-
-
-
-  
+ 
  
     h1on=EEPROM.read(h1on_address);
     h2on=EEPROM.read(h2on_address);
