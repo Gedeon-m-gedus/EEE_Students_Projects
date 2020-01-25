@@ -10,4 +10,5 @@ Project list details
 2. Car overturn accident alert via GSM
 3. Heartbeat monitoring system
 4. Heartbeat and body temperature monitoring system
+5. Blind stick
 
