@@ -11,4 +11,5 @@ Project list details
 3. Heartbeat monitoring system
 4. Heartbeat and body temperature monitoring system
 5. Blind stick
+6. Irrigation system
 
