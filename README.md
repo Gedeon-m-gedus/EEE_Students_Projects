@@ -23,4 +23,5 @@ Project list details
 12. fish_farming
 13. attendance_system
 14. boat_accident_alerting_system
+15. Battery charger with voltage level indicator
 
